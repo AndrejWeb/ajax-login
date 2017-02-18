@@ -1,0 +1,13 @@
+CREATE TABLE `users` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(100) NOT NULL,
+	`email` VARCHAR(255) NOT NULL,
+	`username` VARCHAR(60) NOT NULL,
+	`password` VARCHAR(255) NOT NULL,
+	`created_at` DATETIME NOT NULL,
+	PRIMARY KEY (`id`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=1
+;

@@ -1,0 +1,18 @@
+body {
+    background: #eee;
+}
+.form-container {
+    background: #fff;
+    padding: 20px;
+    margin-top: 10%;
+    border: 1px solid #ccc;
+}
+.sign-in-heading {
+    margin-bottom: 20px;
+}
+.alert-success, .alert-errors {
+    display: none;
+}
+#sign-up-form-container {
+    display: none;
+}
